@@ -1,0 +1,11 @@
+# Virtual environment folder (always ignore this)
+venv/
+
+# Ignore the large data file (it will be tracked by DVC later)
+data/
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
