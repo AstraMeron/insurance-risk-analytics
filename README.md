@@ -40,7 +40,7 @@ To set up this project environment and access the data:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [Your GitHub Repository URL]
+    git clone https://github.com/AstraMeron/insurance-risk-analytics
     cd insurance-risk-analytics
     ```
 
