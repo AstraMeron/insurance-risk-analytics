@@ -1,11 +1,18 @@
 # Virtual environment folder (always ignore this)
 venv/
 
-# Ignore the large data file (it will be tracked by DVC later)
-data/
+# Ignore the actual large data file
+data/MachineLearningRating_v3.txt
+
 # Compiled Python files
 *.pyc
 __pycache__/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
+
+# DVC cache
+.dvc/cache/
+
+# Do NOT ignore the pointer files (which are essential for Git)
+!*.dvc
